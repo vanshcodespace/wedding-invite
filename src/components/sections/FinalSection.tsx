@@ -11,7 +11,7 @@ export default function FinalSection() {
       <h3 className="font-script text-4xl mb-8 leading-snug">We can't wait to <br/> celebrate with you!</h3>
       
       <div className="font-names text-5xl text-cream drop-shadow-md mb-6">
-        {weddingConfig.couple.groomName} & {weddingConfig.couple.brideName}
+        {weddingConfig.couple.brideName} & {weddingConfig.couple.groomName}
       </div>
       
       <p className="font-display tracking-[0.3em] text-[#d4af37] font-semibold text-lg bg-white/20 backdrop-blur-sm px-6 py-2 rounded-full shadow-sm border border-white/30 inline-block mb-8">
@@ -22,8 +22,8 @@ export default function FinalSection() {
 
       <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 text-left flex flex-col gap-1 opacity-90 z-10">
         <span className="uppercase tracking-widest font-semibold text-xs md:text-sm text-cream/80">RSVP</span>
-        <span className="font-serif text-sm md:text-base text-cream drop-shadow-sm">M/s Mohindra metal industries</span>
-        <span className="font-serif text-sm md:text-base text-cream drop-shadow-sm">M/s Akshit enterprises</span>
+        <span className="font-serif text-sm md:text-base text-cream drop-shadow-sm">Mittal Family</span>
+      
       </div>
     </footer>
   );

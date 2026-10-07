@@ -50,11 +50,11 @@ export default function EnvelopeScreen() {
             </p>
             
             <h1 className="font-display text-5xl md:text-6xl text-ivory tracking-wider mb-2">
-              {weddingConfig.couple.groomName}
+              {weddingConfig.couple.brideName}
             </h1>
             <span className="font-script text-3xl text-gold-soft my-2">&</span>
             <h1 className="font-display text-5xl md:text-6xl text-ivory tracking-wider mb-12">
-              {weddingConfig.couple.brideName}
+              {weddingConfig.couple.groomName}
             </h1>
 
             {/* Envelope/Seal graphic */}
@@ -67,7 +67,7 @@ export default function EnvelopeScreen() {
             >
               <div className="w-20 h-20 rounded-full bg-gold-muted flex items-center justify-center shadow-lg shadow-gold-muted/20 border-2 border-gold-soft/50 group-hover:bg-gold-soft transition-colors relative z-10">
                 <span className="font-display text-2xl text-maroon-deep font-bold">
-                  {weddingConfig.couple.groomName[0]}{weddingConfig.couple.brideName[0]}
+                  {weddingConfig.couple.brideName[0]}{weddingConfig.couple.groomName[0]}
                 </span>
               </div>
               <div className="absolute inset-0 rounded-full bg-gold-muted animate-ping opacity-30 group-hover:opacity-50" />

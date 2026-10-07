@@ -15,40 +15,19 @@ export const weddingConfig = {
     mapsUrl: "https://www.google.com/maps/place/ANANDAM+RESORT/data=!4m2!3m1!1s0x0:0x731cd4cb29a1b533?sa=X&ved=1t:2428&ictx=111",
   },
   events: [
-    {
-      id: "haldi-mehndi",
-      name: "Haldi & Mehndi",
-      date: "Nov 23, 2026",
-      time: "3:00 PM",
-      venue: "Shibu Makhan Dharmshala",
-      address: "Shibu Makhan Dharmshala",
-      description: "Join us for a morning of colors, henna, and music as we kick off the celebrations.",
-      dressCode: "Yellow / Green Traditional",
-      mapsUrl: "https://maps.google.com/?q=Shibu+Makhan+Dharmshala",
-    },
+    
     {
       id: "Mandha",
       name: "Mandha",
       date: "Nov 24, 2026",
       time: "12:00 PM",
-      venue: "Shibu Makhan Dharmshala",
-      address: "Shibu Makhan Dharmshala",
+      venue: "Our Residence",
+      address: "Our Residence",
       description: "Join us for a morning of colors, henna, and music as we kick off the celebrations.",
       dressCode: "Yellow / Green Traditional",
       mapsUrl: "https://maps.google.com/?q=Shibu+Makhan+Dharmshala",
     },
-    {
-      id: "sangeet",
-      name: "Sangeet Ceremony",
-      date: "Nov 24, 2026",
-      time: "8:00 PM",
-      venue: "Shibu Makhan Dharmshala",
-      address: "Shibu Makhan Dharmshala",
-      description: "An evening of dance, performances, and celebration. Bring your dancing shoes!",
-      dressCode: "Indo-Western / Glamorous",
-      mapsUrl: "https://maps.google.com/?q=Shibu+Makhan+Dharmshala",
-    },
-  
+   
   ],
   ourStory: {
     enabled: true,

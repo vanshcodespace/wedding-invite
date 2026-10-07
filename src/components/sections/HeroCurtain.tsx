@@ -22,10 +22,10 @@ export default function HeroCurtain() {
         <div className="my-8 w-full flex flex-col items-center gap-6 relative">
           
           <div className="w-full relative flex flex-col items-center">
-            <h2 className="font-names text-6xl md:text-7xl text-[#5b6d4b] mb-2" style={{ textShadow: '2px 2px 4px rgba(255,255,255,0.8)' }}>{weddingConfig.couple.groomName}</h2>
+            <h2 className="font-names text-6xl md:text-7xl text-[#5b6d4b] mb-2" style={{ textShadow: '2px 2px 4px rgba(255,255,255,0.8)' }}>{weddingConfig.couple.brideName}</h2>
             <div className="bg-white/70 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-sm border border-white/50">
-              <p className="font-display text-xs uppercase tracking-widest text-[#3F4F35] font-bold text-center">Son of</p>
-              <p className="font-display text-[0.9rem] text-[#3F4F35] font-medium tracking-wide mt-0.5 text-center">{weddingConfig.couple.groomParents}</p>
+              <p className="font-display text-xs uppercase tracking-widest text-[#3F4F35] font-bold text-center">Daughter of</p>
+              <p className="font-display text-[0.9rem] text-[#3F4F35] font-medium tracking-wide mt-0.5 text-center">{weddingConfig.couple.brideParents}</p>
             </div>
           </div>
 
@@ -36,10 +36,10 @@ export default function HeroCurtain() {
           </div>
 
           <div className="w-full relative flex flex-col items-center">
-            <h2 className="font-names text-6xl md:text-7xl text-[#5b6d4b] mb-2" style={{ textShadow: '2px 2px 4px rgba(255,255,255,0.8)' }}>{weddingConfig.couple.brideName}</h2>
+            <h2 className="font-names text-6xl md:text-7xl text-[#5b6d4b] mb-2" style={{ textShadow: '2px 2px 4px rgba(255,255,255,0.8)' }}>{weddingConfig.couple.groomName}</h2>
             <div className="bg-white/70 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-sm border border-white/50">
-              <p className="font-display text-xs uppercase tracking-widest text-[#3F4F35] font-bold text-center">Daughter of</p>
-              <p className="font-display text-[0.9rem] text-[#3F4F35] font-medium tracking-wide mt-0.5 text-center">{weddingConfig.couple.brideParents}</p>
+              <p className="font-display text-xs uppercase tracking-widest text-[#3F4F35] font-bold text-center">Son of</p>
+              <p className="font-display text-[0.9rem] text-[#3F4F35] font-medium tracking-wide mt-0.5 text-center">{weddingConfig.couple.groomParents}</p>
             </div>
           </div>
           

@@ -20,10 +20,10 @@ export default function FamilySection() {
             className="bg-white p-8 rounded-2xl shadow-sm border border-gold-muted/20"
           >
             <h4 className="font-display text-3xl text-wine mb-6 pb-4 border-b border-gold-muted/20">
-              {weddingConfig.family.groomFamily.heading}
+              {weddingConfig.family.brideFamily.heading}
             </h4>
             <ul className="space-y-4">
-              {weddingConfig.family.groomFamily.members.map((member, idx) => (
+              {weddingConfig.family.brideFamily.members.map((member, idx) => (
                 <li key={idx} className="font-body text-brown-dark text-lg">{member}</li>
               ))}
             </ul>
@@ -37,10 +37,10 @@ export default function FamilySection() {
             className="bg-white p-8 rounded-2xl shadow-sm border border-gold-muted/20"
           >
             <h4 className="font-display text-3xl text-wine mb-6 pb-4 border-b border-gold-muted/20">
-              {weddingConfig.family.brideFamily.heading}
+              {weddingConfig.family.groomFamily.heading}
             </h4>
             <ul className="space-y-4">
-              {weddingConfig.family.brideFamily.members.map((member, idx) => (
+              {weddingConfig.family.groomFamily.members.map((member, idx) => (
                 <li key={idx} className="font-body text-brown-dark text-lg">{member}</li>
               ))}
             </ul>

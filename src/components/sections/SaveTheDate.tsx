@@ -156,7 +156,7 @@ export default function SaveTheDate() {
   };
 
   const downloadICS = () => {
-    const eventTitle = `${weddingConfig.couple.groomName} & ${weddingConfig.couple.brideName} Wedding`;
+    const eventTitle = `${weddingConfig.couple.brideName} & ${weddingConfig.couple.groomName} Wedding`;
     // Format: YYYYMMDDTHHmmssZ (basic dummy)
     const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
