@@ -17,7 +17,7 @@ export default function EventsTimeline() {
         <h2 className="font-script text-4xl text-dark-olive mb-2">Program Timeline</h2>
         <div className="heart-divider"><span>❦</span></div>
         <div className="font-display text-sm tracking-[0.2em] uppercase text-dark-olive mb-10">
-          Nov 23 - 25, 2026
+          Nov 24-25 2026
         </div>
       </div>
 
@@ -45,7 +45,7 @@ export default function EventsTimeline() {
 
       <div className="text-center mt-8 pt-6 border-t border-sage/30 max-w-[280px] mx-auto">
         <h3 className="font-display font-semibold text-sm tracking-widest text-dark-olive mb-2 uppercase">Venue</h3>
-        <p className="font-italic text-dark-olive/90 text-lg drop-shadow-sm">📍 Shibu Makhan Dharmshala</p>
+        <p className="font-italic text-dark-olive/90 text-lg drop-shadow-sm">📍Our Residence</p>
       </div>
     </SectionWrapper>
   );
