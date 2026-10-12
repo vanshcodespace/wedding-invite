@@ -4,8 +4,8 @@ export const weddingConfig = {
     brideName: "Aarushi",
     groomFullName: "Akshit Mittal",
     brideFullName: "Aarushi Mittal",
-    groomParents: "Vandana & Pankaj Mittal",
-    brideParents: "Sonali & Romit Mittal",
+    groomParents: "Mrs. Vandana & Mr. Pankaj Mittal",
+    brideParents: "Mrs. Sonali & Mr. Romit Mittal",
   },
   weddingDateTime: "2026-11-25T19:00:00+05:30", 
   timezone: "Asia/Kolkata",
@@ -40,8 +40,8 @@ export const weddingConfig = {
   },
   family: {
     enabled: true,
-    groomFamily: { heading: "Groom's Family", members: ["Mr. & Mrs. Mittal", "Pankaj Mittal", " Mittal"] },
-    brideFamily: { heading: "Bride's Family", members: ["Mr. & Mrs. Mittal", "Romit Mittal", "Sonali Mittal"] },
+    groomFamily: { heading: "Groom's Family", members: ["Mr. & Mrs. Mittal", "Mr. Pankaj Mittal", "Mrs. Vandana Mittal"] },
+    brideFamily: { heading: "Bride's Family", members: ["Mr. & Mrs. Mittal", "Mr. Romit Mittal", "Mrs. Sonali Mittal"] },
   },
   gallery: {
     images: [
