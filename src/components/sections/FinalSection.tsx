@@ -22,7 +22,7 @@ export default function FinalSection() {
 
       <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 text-left flex flex-col gap-1 opacity-90 z-10">
         <span className="uppercase tracking-widest font-semibold text-xs md:text-sm text-cream/80">RSVP</span>
-        <span className="font-serif text-sm md:text-base text-cream drop-shadow-sm">Mittal Family</span>
+        <span className="font-serif text-sm md:text-base text-cream drop-shadow-sm">Naresh Chand Mittal & Family</span>
       
       </div>
     </footer>
