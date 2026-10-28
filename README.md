@@ -20,3 +20,13 @@ To switch to a real database (like Firebase or Supabase), simply edit `src/lib/d
 ## Deployment
 Built on Next.js App Router and optimized for Vercel.
 `npm run build` will produce a production-ready bundle.
+
+
+
+
+<!-- 
+ <img 
+          src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=400&q=80" 
+          alt="Couple holding hands with bouquet"
+          className="w-full h-full object-cover"
+        /> -->
