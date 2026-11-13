@@ -45,7 +45,7 @@ export default function EventsTimeline() {
 
       <div className="text-center mt-8 pt-6 border-t border-sage/30 max-w-[280px] mx-auto">
         <h3 className="font-display font-semibold text-sm tracking-widest text-dark-olive mb-2 uppercase">Venue</h3>
-        <p className="font-italic text-dark-olive/90 text-lg drop-shadow-sm">📍Our Residence, Near Dr Shikhar Karnal Road Shamli</p>
+        <p className="font-italic text-dark-olive/90 text-lg drop-shadow-sm">📍Gagan Vihar Shamli</p>
       </div>
     </SectionWrapper>
   );
